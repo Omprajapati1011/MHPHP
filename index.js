@@ -5,7 +5,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const formData = new FormData(this);
 
     fetch('send_email.php', {
-        method: 'POST',
+        method: 'GET',
         body: formData
     })
     .then(response => response.json())
