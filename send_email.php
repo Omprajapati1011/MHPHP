@@ -8,10 +8,10 @@ require 'PHPMAILER\SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Get form input and sanitize
-    $companyName = htmlspecialchars($_POST['company-name'] ?? '', ENT_QUOTES, 'UTF-8');
-    $email = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL);
-    $phone = htmlspecialchars($_POST['phone'] ?? '', ENT_QUOTES, 'UTF-8');
-    $message = htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF-8');
+    $companyName = htmlspecialchars($_GET['company-name'] ?? '', ENT_QUOTES, 'UTF-8');
+    $email = filter_var($_GET['email'] ?? '', FILTER_VALIDATE_EMAIL);
+    $phone = htmlspecialchars($_GET['phone'] ?? '', ENT_QUOTES, 'UTF-8');
+    $message = htmlspecialchars($_GET['message'] ?? '', ENT_QUOTES, 'UTF-8');
 
     if (!$email) {
         // Send a response if the email is invalid
