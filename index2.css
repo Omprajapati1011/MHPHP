@@ -1,0 +1,200 @@
+
+.top-bar {
+    padding: 10px 20px;
+    display: flex;
+    font-size: 14px;
+}
+
+.top-bar .social-media img {
+    height: 17px;
+    margin: 0;
+    padding: 0px;
+}
+
+
+header nav {
+    flex-direction: column;
+    padding: 10px;
+}
+
+header nav ul {
+    align-items: center;
+    margin-top: -24px;
+}
+
+header nav ul li {
+    margin: 10px 0;
+}
+
+header .contact-us-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+header nav ul li a {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+
+
+header nav .logo img {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    margin-right: -10px;
+}
+
+
+.carousel-caption .headline {
+    font-size: 30px;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.brands-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contact-us-section {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.contact-form-container {
+    padding: 30px;
+    border-radius: 14px;
+    width: auto;
+    margin: auto;
+}
+
+.testimonial-slide {
+    flex: 0 0 50%;
+}
+
+
+.stat-number {
+    font-size: 25px;
+}
+
+
+.text-part h3 {
+    font-size: 25px;
+}
+
+
+
+
+.team-members {
+    display: grid;
+    justify-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.team-member {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-top: 100px; /* Increased card height */
+    padding-bottom: 0px; /* Added bottom padding */
+     overflow: visible; /*Allows the photo and icon to overflow */
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us-section {
+    padding: 50px 20px;
+}
+
+.services-header h3 {
+    font-size: 25px;
+}
+
+.clients-header h3 {
+    font-size: 25px;   
+}
+
+
+.testimonials-header h3 {
+    font-size: 25px;
+}
+
+.contact-left h3 {
+    font-size: 25px
+}
+
+.contact-form-container h3 {
+    font-size: 22px;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    padding: 0px;
+    margin: 0px 0;
+}
+
+
+
+.footer-section {
+    padding: 25px 20px;
+}
+
+.footer-social {
+    margin: 10px 0;
+}
+
+.footer-logo img {
+    width: 85px;
+    margin-bottom: 10px;
+}
+
+.footer-nav li a {
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+.footer-social-icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+
