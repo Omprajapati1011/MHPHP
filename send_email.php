@@ -6,7 +6,7 @@ require 'PHPMAILER\Exception.php'; // Include PHPMailer via Composer
 require 'PHPMAILER\PHPMailer.php'; 
 require 'PHPMAILER\SMTP.php'; 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Get form input and sanitize
     $companyName = htmlspecialchars($_POST['company-name'] ?? '', ENT_QUOTES, 'UTF-8');
     $email = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL);
